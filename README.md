@@ -11,6 +11,9 @@ interactive shell
 $ echo "$PATH"
 /root/.pyenv/shims:/root/.pyenv/bin:/root/.pyenv/shims:/root/.pyenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 $ export SHELL=/bin/bash
+```
+
+```
 $ pipenv shell
 Launching subshell in virtual environment. Type 'exit' or 'Ctrl+D' to return.
 non-login shell
@@ -28,6 +31,9 @@ interactive shell
 $ echo "$PATH"
 /root/.pyenv/shims:/root/.pyenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 $ export SHELL=/usr/bin/zsh
+```
+
+```
 $ pipenv shell
 Launching subshell in virtual environment. Type 'exit' or 'Ctrl+D' to return.
 non-login shell
@@ -45,6 +51,9 @@ interactive shell
 $ echo "$PATH"
 /root/.pyenv/shims /root/.pyenv/bin /usr/local/sbin /usr/local/bin /usr/sbin /usr/bin /sbin /bin
 $ export SHELL=/usr/bin/fish
+```
+
+```
 $ pipenv shell
 non-login shell
 non-interactive shell
