@@ -47,8 +47,14 @@ $ echo "$PATH"
 
 ```
 $ docker-compose run app fish
+running fish config
 non-login shell
 interactive shell
+Welcome to fish, the friendly interactive shell
+Type help for instructions on how to use fish
+running fish config
+non-login shell
+non-interactive shell
 $ echo "$PATH"
 /root/.pyenv/shims /root/.pyenv/bin /usr/local/sbin /usr/local/bin /usr/sbin /usr/bin /sbin /bin
 $ export SHELL=/usr/bin/fish
