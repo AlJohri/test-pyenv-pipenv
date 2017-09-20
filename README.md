@@ -26,6 +26,7 @@ $ echo "$PATH"
 
 ```
 $ docker-compose run app zsh
+running zshrc
 non-login shell
 interactive shell
 $ echo "$PATH"
@@ -37,6 +38,7 @@ $ pipenv install
 ```
 $ pipenv shell
 Launching subshell in virtual environment. Type 'exit' or 'Ctrl+D' to return.
+running zshrc
 non-login shell
 interactive shell
 $ echo "$PATH"
